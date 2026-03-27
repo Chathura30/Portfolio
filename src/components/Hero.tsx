@@ -64,8 +64,9 @@ export default function Hero() {
 
               <p className="hero-bio text-text-secondary leading-relaxed mb-8 max-w-[420px] text-[15px]">
                 First-class honours graduate with industry experience delivering
-                enterprise-grade financial systems. Deep expertise in React, Node.js,
-                and cross-platform mobile development.
+                enterprise-grade financial systems for government institutions.
+                Deep expertise in React, Node.js, TypeScript, and cross-platform
+                mobile development with Flutter.
               </p>
 
               <div className="hero-social flex gap-3 mb-8">
