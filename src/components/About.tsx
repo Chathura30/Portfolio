@@ -4,8 +4,8 @@ import { useReveal } from '../hooks/useReveal'
 const stats = [
   { label: 'Years Experience', value: '1+' },
   { label: 'Projects Completed', value: '5+' },
-  { label: 'Technologies', value: '15+' },
-  { label: 'Code Commits', value: '500+' },
+  { label: 'Technologies', value: '20+' },
+  { label: 'Code Commits', value: '300+' },
 ]
 
 const infoCards = [
