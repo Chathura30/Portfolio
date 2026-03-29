@@ -28,7 +28,7 @@ export default function Footer() {
               <span className="text-text-primary font-bold text-lg">Chathura<span className="text-accent">.</span></span>
             </a>
             <p className="text-text-secondary text-sm leading-relaxed mb-4">
-              Full-Stack Software Engineer building clean, scalable, and user-focused applications.
+              Full-Stack Software Engineer building clean, scalable, and production-ready web &amp; mobile applications.
             </p>
             <a href="mailto:chathurajayasnka30@gmail.com" className="text-accent hover:underline text-sm">
               chathurajayasnka30@gmail.com
