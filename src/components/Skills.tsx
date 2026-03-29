@@ -5,7 +5,7 @@ const skillCategories = [
   { title: 'Frontend',           dot: '#a855f7', skills: ['React', 'React Native', 'Flutter', 'Vue.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
   { title: 'Backend',            dot: '#3b82f6', skills: ['Node.js', 'Express.js', 'RESTful APIs', 'PHP'] },
   { title: 'Databases',          dot: '#22c55e', skills: ['MySQL', 'Firebase', 'MongoDB', 'SQL Server'] },
-  { title: 'Languages & Tools',  dot: '#f97316', skills: ['JavaScript', 'TypeScript', 'C#', 'Java', 'Python', 'Git', 'Figma', 'Postman', 'VS Code', 'Agile / Scrum'] },
+  { title: 'Languages & Tools',  dot: '#f97316', skills: ['JavaScript', 'TypeScript', 'C#', 'Java', 'Python', 'Git', 'Docker', 'Figma', 'Postman', 'VS Code', 'Agile / Scrum'] },
 ]
 
 const proficiency = [
