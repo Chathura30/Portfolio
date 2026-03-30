@@ -15,10 +15,10 @@ export default function Contact() {
             <Mail className="text-accent" size={28} />
           </div>
           <p className="section-label">Get In Touch</p>
-          <h2 className="text-3xl font-semibold text-text-primary mb-4">Let&apos;s Work Together</h2>
+          <h2 className="text-3xl font-semibold text-text-primary mb-4">Let&apos;s Build Something Great</h2>
           <p className="text-text-secondary mb-10 leading-relaxed max-w-xl mx-auto">
-            Currently seeking Junior / Full-Stack Software Engineer opportunities.
-            Feel free to reach out if you have a project in mind or just want to connect.
+            Open to Full-Stack Software Engineer opportunities. Whether you have a project in mind
+            or want to connect — my inbox is always open.
           </p>
           <a href="mailto:chathurajayasnka30@gmail.com" className="btn-primary inline-flex mb-16">
             Send an Email <ArrowRight size={18} />
