@@ -8,7 +8,7 @@ const socialLinks = [
   { icon: Mail,     href: 'mailto:chathurajayasnka30@gmail.com',               label: 'Email' },
 ]
 
-const skills = ['React', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'Firebase']
+const skills = ['React', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'Firebase', 'Docker']
 
 export default function Hero() {
   const [ready, setReady] = useState(false)
