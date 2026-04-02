@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto w-full">
 
         {/* — Badge — */}
-        <div className={`hero-label flex items-center justify-center gap-20 mb-12 ${!ready && 'opacity-0'}`}>
+        <div className={`hero-label flex items-center justify-center gap-8 mb-12 ${!ready && 'opacity-0'}`}>
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent opacity-70" />
           <span className="text-accent text-xs font-semibold tracking-[0.35em] uppercase">
             Portfolio · 2026
@@ -43,7 +43,7 @@ export default function Hero() {
             <div className="absolute -left-5 top-0 bottom-0 w-0.5 rounded-full animate-pulse-glow"
               style={{ background: 'linear-gradient(to bottom, #a855f7 0%, #7c3aed 60%, transparent 100%)' }} />
 
-            <div className="pl-5 space-y-0">
+            <div className="pl-5 space-y-4">
               <div className="hero-text">
                 <h1 className="font-black leading-[0.92] tracking-tight"
                   style={{ fontSize: 'clamp(2.6rem, 5.5vw, 4.8rem)' }}>
@@ -79,7 +79,7 @@ export default function Hero() {
                 ))}
               </div>
 
-              <div className="hero-tags flex flex-wrap gap-2">
+              <div className="hero-tags flex flex-wrap gap-2 mb-8">
                 {skills.map((skill) => (
                   <span key={skill}
                     className="px-3 py-1.5 text-xs font-medium rounded-full border border-border-color text-text-secondary hover:border-accent hover:text-accent transition-all duration-300"
@@ -89,6 +89,10 @@ export default function Hero() {
                 ))}
               </div>
 
+              <div className="hero-cta flex gap-4">
+                <a href="#projects" className="btn-primary">View Projects</a>
+                <a href="#contact" className="btn-outline">Hire Me</a>
+              </div>
             </div>
           </div>
 
