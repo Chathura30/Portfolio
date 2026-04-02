@@ -8,7 +8,7 @@ const socialLinks = [
   { icon: Mail,     href: 'mailto:chathurajayasnka30@gmail.com',               label: 'Email' },
 ]
 
-const skills = ['React', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'MongoDB', 'Firebase', 'Docker']
+const skills = ['React', 'React Native', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'MongoDB', 'Firebase', 'Docker']
 
 export default function Hero() {
   const [ready, setReady] = useState(false)
@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <section id="home"
-      className="relative min-h-screen flex flex-col justify-center pt-20 pb-20 px-4 overflow-hidden z-10">
+      className="relative min-h-screen flex flex-col justify-center pt-24 pb-14 px-4 overflow-hidden z-10">
 
       {/* Vertical accent lines */}
       <div className="absolute left-[8%] top-0 bottom-0 w-px pointer-events-none"
@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto w-full">
 
         {/* — Badge — */}
-        <div className={`hero-label flex items-center justify-center gap-4 mb-12 ${!ready && 'opacity-0'}`}>
+        <div className={`hero-label flex items-center justify-center gap-5 mb-10 ${!ready && 'opacity-0'}`}>
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent opacity-70" />
           <span className="text-accent text-xs font-semibold tracking-[0.35em] uppercase">
             Portfolio · 2026
@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent opacity-70" />
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-14 lg:gap-24 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* — Left: text block — */}
           <div className={`relative ${!ready && 'opacity-0'}`}>
@@ -55,21 +55,21 @@ export default function Hero() {
                 </h1>
               </div>
 
-              <div className="hero-sub flex items-center gap-4 mb-6">
+              <div className="hero-sub flex items-center gap-4 mb-5">
                 <div className="h-0.5 w-10 rounded-full bg-accent shrink-0" />
                 <p className="text-accent font-semibold tracking-widest text-sm uppercase">
                   Full-Stack Software Engineer
                 </p>
               </div>
 
-              <p className="hero-bio text-text-secondary leading-relaxed mb-8 max-w-[420px] text-[15px]">
+              <p className="hero-bio text-text-secondary leading-relaxed mb-6 max-w-[420px] text-[15px]">
                 First-class honours graduate with industry experience delivering
                 enterprise-grade financial systems for government institutions.
                 Deep expertise in React, Node.js, TypeScript, and cross-platform
                 mobile development with Flutter.
               </p>
 
-              <div className="hero-social flex gap-3 mb-8">
+              <div className="hero-social flex gap-3 mb-6">
                 {socialLinks.map((s) => (
                   <a key={s.label} href={s.href}
                     target="_blank" rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export default function Hero() {
                 ))}
               </div>
 
-              <div className="hero-tags flex flex-wrap gap-2 mb-8">
+              <div className="hero-tags flex flex-wrap gap-2 mb-7">
                 {skills.map((skill) => (
                   <span key={skill}
                     className="px-3 py-1.5 text-xs font-medium rounded-full border border-border-color text-text-secondary hover:border-accent hover:text-accent transition-all duration-300"
@@ -170,7 +170,7 @@ export default function Hero() {
         </div>
 
         {/* — Scroll cue — */}
-        <div className="hero-cta flex justify-center mt-16">
+        <div className="hero-cta flex justify-center mt-12">
           <a href="#about" className="flex flex-col items-center gap-2 text-text-muted hover:text-accent transition-colors group">
             <span className="text-xs tracking-widest uppercase font-medium">Scroll</span>
             <ArrowDown size={16} className="animate-bounce" />
