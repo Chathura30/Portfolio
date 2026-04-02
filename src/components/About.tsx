@@ -73,7 +73,7 @@ export default function About() {
             <div>
               <p className="text-text-secondary text-lg leading-relaxed mb-4">
                 First-class honours graduate in Software Engineering (Kingston University of London)
-                with hands-on industry experience building production-grade full-stack web and
+                with hands on industry experience building production grade full-stack web and
                 mobile applications.
               </p>
               <p className="text-text-secondary leading-relaxed">

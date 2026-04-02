@@ -8,7 +8,7 @@ const socialLinks = [
   { icon: Mail,     href: 'mailto:chathurajayasnka30@gmail.com',               label: 'Email' },
 ]
 
-const skills = ['React', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'Firebase', 'Docker']
+const skills = ['React', 'Node.js', 'TypeScript', 'Flutter', 'C#', 'Python', 'MySQL', 'MongoDB', 'Firebase', 'Docker']
 
 export default function Hero() {
   const [ready, setReady] = useState(false)
@@ -30,7 +30,7 @@ export default function Hero() {
         <div className={`hero-label flex items-center justify-center gap-4 mb-12 ${!ready && 'opacity-0'}`}>
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-accent opacity-70" />
           <span className="text-accent text-xs font-semibold tracking-[0.35em] uppercase">
-            Portfolio · 2025
+            Portfolio · 2026
           </span>
           <div className="h-px w-16 bg-gradient-to-l from-transparent to-accent opacity-70" />
         </div>
