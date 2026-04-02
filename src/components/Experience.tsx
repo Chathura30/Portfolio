@@ -22,7 +22,7 @@ const education = [
   { degree: 'BSc (Hons) Computing Science in Software Engineering (TOP UP)', institution: 'Kingston University of London', via: 'Esoft Metro Campus', period: '2025 – 2026', grade: 'First Class', gradeColor: 'text-purple-400', gradeBg: 'bg-purple-500/10' },
   { degree: 'Pearson BTEC Level 5 HND in Computing', institution: 'Esoft Metro Campus', via: 'Specialize in Software Engineering', period: '2022 – 2024', grade: 'Merit', gradeColor: 'text-blue-400', gradeBg: 'bg-blue-500/10' },
   { degree: 'G.C.E Advanced Level', institution: 'Mahanama College Colombo 3', via: '', period: '2020', grade: 'Passed', gradeColor: 'text-green-400', gradeBg: 'bg-green-500/10' },
-  { degree: 'G.C.E Ordinary Level', institution: 'Ananda Sastralaya Kotte', via: '', period: '2017', grade: 'Passed', gradeColor: 'text-orange-400', gradeBg: 'bg-orange-500/10' },
+  { degree: 'G.C.E Ordinary Level', institution: 'Ananda Sastralaya Kotte', via: '', period: '2017' },
 ]
 
 export default function Experience() {
